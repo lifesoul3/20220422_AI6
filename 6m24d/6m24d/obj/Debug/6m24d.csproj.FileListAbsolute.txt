@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\6m24d\6m24d\bin\Debug\6m24d.exe.config
+C:\Users\User\source\repos\6m24d\6m24d\bin\Debug\6m24d.exe
+C:\Users\User\source\repos\6m24d\6m24d\bin\Debug\6m24d.pdb
+C:\Users\User\source\repos\6m24d\6m24d\obj\Debug\6m24d.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\6m24d\6m24d\obj\Debug\6m24d.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\6m24d\6m24d\obj\Debug\_6m24d.Form1.resources
+C:\Users\User\source\repos\6m24d\6m24d\obj\Debug\_6m24d.Properties.Resources.resources
+C:\Users\User\source\repos\6m24d\6m24d\obj\Debug\6m24d.csproj.GenerateResource.cache
+C:\Users\User\source\repos\6m24d\6m24d\obj\Debug\6m24d.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\6m24d\6m24d\obj\Debug\6m24d.exe
+C:\Users\User\source\repos\6m24d\6m24d\obj\Debug\6m24d.pdb
+C:\Users\User\source\repos\6m24d\6m24d\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\6m24d\6m24d\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\6m24d\6m24d\obj\Debug\6m24d.csproj.CopyComplete
