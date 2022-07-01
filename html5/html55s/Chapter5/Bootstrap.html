@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Basic Page</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
+	<style>
+		body{
+			padding-top:70px;
+		}
+	</style>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+	
+</head>
+<body>
+	<div class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
+		<div class="container">
+			<a class="navbar-brand" href="#">Bootstrap</a>
+			<button class="navbar-toggler" type="button"
+				data-toggle="collapse" data-target="#navbar-content">
+			<span class="navbar-toggler-icon"></span>	
+			</button>
+			<div class="collapse navbar-collapse" id="navbar-content">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item dropdown">
+						<a class="nav-link dorpdown-toggle" href="#" data-toggle="dropdown">HTML5</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Geolocation</a>
+							<a class="dropdown-item" href="#">Drag and Drop</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Motion</a>
+						</div>	
+					</li>
+					<li class="nav-item"><a class="nav-link" href="#">CSS3</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">ECMAScript5</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Node.js</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">API</a></li>
+				</ul>
+				<form class="form-inline">
+					<input type="text" class="form-control" placeholder="search" />
+				</form>
+				<ul class="nav navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="#">Node.js</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">API</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card">
+				<div class="card-header">Panel Title1</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><a href="#">HTML5</a></li>
+					<li class="list-group-item"><a href="#">CSS3</a></li>
+					<li class="list-group-item"><a href="#">ECMAScript5</a></li>
+				</ul>
+				</div>
+				<br />
+				<div class="card bg-info">
+				<div class="card-header">Panel Title2</div>
+				<ul class ="list-group list-group-flush">
+					<li class="list-group-item"><a href="#">jQuery</a></li>
+					<li class="list-group-item"><a href="#">Html5 API</a></li>
+				</ul>
+				</div>
+				<br />
+				<div class="card bg-secondary">
+				<div class="card-header">Panel Title3</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><a href="#">About</a></li>
+					<li class="list-group-item"><a href="#">Help</a></li>
+				</ul>
+				</div>
+				<br />
+			</div>
+			<div class="col-md-9">
+				<div class="jumbotron">
+					<h1>Lorem Ipsum2</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar malesuada lacus, ut finibus lectus molestie et. Maecenas cursus sollicitudin congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut ullamcorper ligula sed tellus sagittis pellentesque. Ut ac velit non nibh vehicula tincidunt sit amet quis quam. Nulla vestibulum arcu lacus, vel sodales est pharetra sit amet. Nullam vel lobortis odio. In pellentesque orci vitae arcu suscipit facilisis. Phasellus ex nisi, elementum nec congue vel, eleifend sit amet felis. Aliquam dignissim ullamcorper odio vitae ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent scelerisque urna in nibh euismod, in pretium tortor feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+					<a class="btn btn-primary btn-lg" href="#">Learn more</a>
+				</div>
+				<p>Pellentesque lacinia velit nec iaculis fermentum. Sed consequat ante lacus, a blandit tortor suscipit eu. Aliquam tempor nisi id sem consectetur, quis gravida ipsum fermentum. Etiam non ornare elit. Vivamus ut elit rhoncus, iaculis urna vitae, venenatis enim. Praesent et finibus ligula. Pellentesque sit amet velit dignissim, convallis ex id, viverra tellus. Pellentesque vitae pellentesque justo. Donec auctor sed dolor commodo pretium. Morbi lacinia accumsan augue, a tempor libero elementum quis. In orci urna, pretium ac erat nec, fringilla rhoncus eros. Aenean viverra finibus elit, nec tincidunt neque mattis eu. Nullam dapibus purus nec felis convallis, et ullamcorper dolor egestas. Aenean hendrerit accumsan scelerisque.</p>
+				<p>Nam sem arcu, venenatis id vehicula a, condimentum eget massa. In vulputate ut ex ut interdum. Suspendisse ultricies leo eget est ultrices, et lobortis nibh fermentum. Proin euismod vestibulum lorem, a aliquam nisi laoreet ac. Donec gravida metus non ultrices facilisis. Vivamus placerat metus non enim porta, eu sagittis erat rutrum. Maecenas augue lorem, viverra et suscipit eu, venenatis ac nisi. Etiam eu dolor varius, sodales justo id, faucibus nunc.</p>
+				<p>Pellentesque vitae nibh tortor. Nunc nec ultricies nibh. Quisque sed gravida urna. Nam vel nibh vestibulum, volutpat diam sed, faucibus purus. Praesent risus lectus, luctus et urna vel, porta viverra lacus. Curabitur ut venenatis ipsum. Donec id dui ex. Pellentesque sed maximus leo.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

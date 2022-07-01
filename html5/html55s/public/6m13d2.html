@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style type="text/css">
+		input:enabled{
+			background-color:yellow;
+		}
+		input:disabled{
+			background-color:black;
+		}
+		input:focus{
+			background-color:orange;
+		}
+		input[type=checkbox]:checked+#div1{
+			height:0px;
+		}
+		#div1{
+			width:650px;
+			height:300px;
+			overflow:hidden;
+			transition-duration:1s;
+		}
+	</style>
+</head>
+<body>
+	<h2>enabled</h2>
+	<input />
+	<h2>disabled</h2>
+	<input disabled="disabled"/>
+
+	<input type="checkbox"/>
+	<div id="div1">
+		<h1>lorem ipsum1</h1>
+		<p>lorem ipsum dolor sit amet, consectetur</p>
+	</div>
+	<div id="div2">
+		<h1>lorem ipsum2</h1>
+		<p>lorem ipsum dolor sit amet, consectetur</p>
+	</div>
+	<div id="div3">
+		<h1>lorem ipsum3</h1>
+		<p>lorem ipsum dolor sit amet, consectetur</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html  lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Smart phone</title>
+<meta name="viewport" content="width=divice-width, initial-scale=1.0, 
+		minimum-scale=1.0, user-scalable=no"/>
+	<style>
+		*{margin:0;padding:0;}
+		body{font-family:'Helvetica',sans-serif;}
+		li{list-style:none;}
+		a{text-decoration:none;}
+	</style>
+	<style>
+		#main_header{
+			height:45px;	
+			background:url('./ch_6/header_background.png');
+			position: relative;
+			text-align: center;
+			line-height: 45px;
+		}
+		#main_header>h1{
+			color:white;
+		}
+		#main_header>a,#main_header>label{
+			display:block;
+			height:32px;
+			position:absolute;
+		}
+		#main_header>a.left{
+			width:62px;
+			left:5px; top:7px;
+		}
+		#main_header>label.right{
+			width:32px;
+			right:5px; top:7px;
+		}
+	</style>
+	<style>
+		#main_header>a.left{
+			background:url('./ch_6/sprites.png');
+			background-position:0px 0px;
+			text-indent: -99999px;
+		}
+		#main_header>label.right{
+			background:url('./ch_6/sprites.png');
+			background-position:-64px 0px;
+			text-indent: -99999px;
+		}
+	</style>
+	<style>
+		#toggle{display:none;}
+		#toggle+#wrap>#toggle_gnb_wrap{display:none;}
+		#toggle:checked+#wrap>#toggle_gnb_wrap{display:block;}
+		#toggle_gnb_wrap{
+			background:#363636;
+			padding:15px;
+		}
+		#toggle_gnb{
+			background:#FFFFFF;
+			padding:5px;
+		}
+		#toggle_gnb>ul{overflow:hidden;
+			
+		}
+		#toggle_gnb>ul>li{
+			width:80px; float:left;
+		}
+		
+	</style>
+	<style>
+	#top_gnb{
+	overflow:hidden;
+	border-bottom:1px solid black;
+	background:#B42111;
+	}
+	#top_gnb>div>a{
+		float:left; width:25%;
+		height:35px; line-height:35px;
+		text-align: center; color:white;
+	}
+	</style>
+	<style>
+		#bottom_gnb{
+			display:table;
+			width:100%;
+			border-bottom:1px solid black;
+		}
+		#bottom_gnb>div{
+			display:table-cell;
+			position:relative;
+		}
+		#bottom_gnb>div>a{
+			display:block;
+			height:35px;
+			line-height:35px;
+			text-align: center;
+		}
+		#bottom_gnb>div>a:before{
+			display:block;
+			position:absolute;
+			top:9px;	left:-1px;
+			width:1px;	height:15px;
+			border-left:1px solid black;
+			content:'';
+		}
+		
+	</style>
+	<style>
+		#section_header{padding:20px;}
+		#section_article{padding:10px;}
+		
+	</style>
+	<style>
+		#Main_footer{
+			padding:10px;
+			border-top:3px solid black;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<input id="toggle" type="checkbox" />	
+	<div id="wrap">
+		<header id="main_header">
+			<a class="left" href="#">Main</a>
+			<h1>Mobile</h1>
+			<label class="right" for="toggle">Toggle</label>
+		</header>
+		<div id="toggle_gnb_wrap">
+			<div id="toggle_gnb">
+				<ul>
+					<li><a href="#">버튼</a></li>
+					<li><a href="#">버튼</a></li>
+					<li><a href="#">버튼</a></li>
+					<li><a href="#">버튼</a></li>
+					<li><a href="#">버튼</a></li>
+					<li><a href="#">버튼</a></li>
+					<li><a href="#">버튼</a></li>
+					<li><a href="#">버튼</a></li>
+				</ul>
+			</div>
+		</div>
+		<nav id="top_gnb">
+			<div><a href="#">버튼</a></div>
+			<div><a href="#">버튼</a></div>
+			<div><a href="#">버튼</a></div>
+			<div><a href="#">버튼</a></div>
+		</nav>
+		<nav id="bottom_gnb">
+			<div><a href="#">버튼</a></div>
+			<div><a href="#">버튼</a></div>
+			<div><a href="#">버튼</a></div>
+			<div><a href="#">버튼</a></div>
+			<div><a href="#">버튼</a></div>
+		</nav>
+		<section id="main_section">
+			<header id="section_header">
+				<h1>Lorem ipsum</h1>
+				<time>2022-06-20-birthday</time>
+			</header>
+			<article id="section_article">
+			<p>Pellentesque vitae nibh tortor. Nunc nec ultricies nibh. Quisque sed gravida urna. Nam vel nibh vestibulum, volutpat diam sed, faucibus purus. Praesent risus lectus, luctus et urna vel, porta viverra lacus. Curabitur ut venenatis ipsum. Donec id dui ex. Pellentesque sed maximus leo.</p>
+			<br />
+			<p>Nam sem arcu, venenatis id vehicula a, condimentum eget massa. In vulputate ut ex ut interdum. Suspendisse ultricies leo eget est ultrices, et lobortis nibh fermentum. Proin euismod vestibulum lorem, a aliquam nisi laoreet ac. Donec gravida metus non ultrices facilisis. Vivamus placerat metus non enim porta,</p>
+			<br />
+			<p>Vivamus mattis rutrum enim, nec tincidunt est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam commodo nisl ac libero pretium scelerisque. Donec volutpat nulla id risus convallis, sed rutrum nulla congue. Nullam ut consectetur eros. Maecenas aliquam, leo eu pellentesque accumsan, mi metus fermentum nisi,</p>
+			<br />
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar malesuada lacus, ut finibus lectus molestie et. Maecenas cursus sollicitudin congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut ullamcorper ligula sed tellus sagittis pellentesque. Ut ac velit non nibh vehicula tincidunt sit amet quis quam. Nulla vestibulum arcu lacus, vel sodales est pharetra sit amet. Nullam vel lobortis odio. In pellentesque orci vitae arcu suscipit facilisis. Phasellus ex nisi, elementum nec congue vel, eleifend sit amet felis. Aliquam dignissim ullamcorper odio vitae ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent scelerisque urna in nibh euismod, in pretium tortor feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			</article>
+		</section>
+		<footer id="Main_footer">
+			<h3>HTML5+CSS3 Basic</h3>
+			<address>Website Layout Basic</address>
+		</footer>
+	</div>
+</body>
+</html>
+
+
+

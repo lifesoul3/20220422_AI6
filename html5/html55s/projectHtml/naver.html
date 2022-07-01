@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+<meta charset="UTF-8">
+<title>나만의 웹사이트(네이버 가입)</title>
+	<style>
+		
+		*{
+			margin:0 auto;
+			background:rgb(247, 249, 252);
+		}
+		body{
+			width:480px;
+		}
+
+		#HeadB>#banner{
+			display:block;
+			margin:20px 0 0 0;
+		}
+		
+		#main{
+			margin:auto;
+		}
+		#outer{
+			position:relative;
+			height:34px;
+			border:1px solid rgb(198, 205, 247);
+			margin:5px;
+		}
+		#outer>#inner{
+			position: absolute;
+			margin:5px;
+		}
+
+		.first{
+			font-size:1.2em;
+			width:300px;
+			border:0;
+			cursor:pointer;
+		}
+		input:focus{
+			outline:none;
+		}
+		
+		h1{
+			margin:5px;
+			font-size:1.5em;
+		}
+		
+		#birth1{
+			position:relative;
+			height:48px;
+			border:1px solid rgb(247, 249, 252);
+		}
+		#birth2{
+			position:absolute;
+			margin:5px;
+			display:block;
+			border:1px solid rgb(198, 205, 247);
+			height:36px;
+		}
+		
+		#birth3{
+			position:absolute;
+			margin:0 auto;
+			display:block;
+			left:205px;
+		
+		}
+		
+		#birth4{
+			position:absolute;
+			margin:5px;
+			display:block;
+			right:0px;	
+			border:1px solid rgb(198, 205, 247);
+			height:36px;
+			
+		}
+		.years{
+			border:0;
+			margin:5px;
+			width:170px;
+			cursor:pointer;
+			font-size:1.2em;
+		}
+		.day{
+			border:0;
+			margin:5px;
+			width:170px;
+			cursor:pointer;
+			font-size:1.2em;
+	
+		}
+		select{
+			margin:7px 0 7px 0;
+			font-size:1.7em;
+		}
+		
+		#footer{
+			position:relative;
+		}
+		
+		#submit{
+			position:absolute;
+			right:10px;
+			height:50px;
+			width:100px;
+			border:0;
+			background:rgb(101, 247, 148);
+			color:white;
+			cursor:pointer;
+		}
+		
+
+	</style>
+	
+</head>
+<body>
+	<div id="HeadB">
+		<img id="banner" src="https://via.placeholder.com/480X100">
+	</div>
+	<br/>
+	<div id="main">
+	<h1>아이디</h1>
+		<div id="outer">
+			<div id="inner">
+				<input class="first" type="text">
+			</div>
+		</div>
+		<br/>
+	<h1>비밀번호</h1>
+		<div id="outer">
+			<div id="inner">
+				<input class="first" type="password">
+			</div>
+		</div>
+		<br/>
+	<h1>비밀번호확인</h1>
+		<div id="outer">
+			<div id="inner">
+				<input class="first" type="password">
+			</div>
+		</div>
+		<br/>
+	</div>
+		<h1>이름</h1>
+		<div id="outer">
+			<div id="inner">
+				<input class="first" type="text">
+			</div>
+		</div>
+	<br/>
+	<h1>생년월일</h1>
+	
+	
+	<div id="birth1">
+		<div id="birth2">
+			<input class="years" type="text">
+		</div>
+		<div id="birth3" class="month">
+			<select>
+				<option>1월</option>
+				<option>1월</option>
+				<option>1월</option>
+				<option>1월</option>
+				<option>1월</option>
+				<option>1월</option>
+				<option>1월</option>
+				<option>1월</option>
+				<option>1월</option>
+				<option>1월</option>
+				<option>1월</option>
+				<option>2월</option>
+			</select>
+		</div>
+		<div id="birth4">
+			<input class="day" type="text">
+		</div>
+	</div>
+	
+	<div id="footer">
+		<br/>
+			<a href="/Users/User/eclipse-workspace/html55s/projectHtml/NewFile1.html"><button id="submit">제출</button></a>
+	
+	</div>
+</body>
+</html>

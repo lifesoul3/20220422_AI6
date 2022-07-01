@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- get 주소창에 데이터가 보임 
+	 post 주소창에 데이터가 안보임-->
+	<form method="get">
+		<input type="date"><br>
+		<input type="text"><br>
+		<input type="submit"><br>
+		<input type="password"><br>
+		<input type="file"><br>
+		<input type="text" name="str1"><br>
+		<!-- text트값이 str1으로 변수선언되 -->
+		<input type="button"><br>
+		<input type="reset"><br>
+		<input type="radio" name="gender"><br>
+		<label>아이디</label><br>
+		<input type="text"><br>
+		<label>비밀번호</label><br>
+		<input type="password"><br>
+		<input type="email"><br>
+		<input type="week"><br>
+		<!-- radio-선택지중에 한개만 선택해야 할때
+			 checkbox-다중 선택 가능
+		 -->
+		<input type="radio" 
+		name="gender" value="man" checked="checked">남성<br>
+		<input type="radio" 
+		name="gender" value="woman">여성<br>
+		<input type="checkbox">축구
+		<input type="checkbox">농구
+		<input type="checkbox">야구<br>
+		
+		<textarea rows="2" cols="30">내용을 입력하세요</textarea><br>
+		<select multiple="multiple">
+			<option>김밥</option>
+			<option>떡볶이</option>
+			<option>순대</option>
+			<option>오뎅</option>
+
+		</select>
+		<select>
+			<optgroup label="html5">
+			<option>김밥</option>
+			<option>떡볶이</option>
+			<option>순대</option>
+			<option>오뎅</option>
+			</optgroup>
+		</select>
+	</form>
+	<h1>page88</h1>
+	<form>
+		<fieldset>
+			<legend>로그인</legend>
+		<table>
+			<tr>
+				<td>이름</td>
+				<td><input type="text"/></td>
+			</tr>
+			<tr>
+				<td>이메일</td>
+				<td><input type="email"/></td>
+			</tr>
+		</table>
+		<input type="submit">
+		</fieldset>
+	</form>
+</body>
+</html>

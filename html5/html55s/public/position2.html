@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+		<style>
+		*{
+			margin:0;
+		}
+		body{
+			width:800px;
+			margin:auto;
+		}
+
+		#outer{
+			position:relative;
+			height:34px;
+			border:1px solid blue;
+			margin:5px;
+		}
+		#outer>#inner{
+			position: absolute;
+			margin:5px;
+		}
+
+		input{
+			font-size:1.2em;
+			width:300px;
+			border:0;
+			cursor:pointer;
+		}
+		input:focus{
+			outline:none;
+		}
+		
+		#main{
+			margin:auto;
+		}
+		h1{
+			margin:5px;
+			font-size:1.5em;
+		}
+		</style>
+</head>
+<body>
+
+	<div id="main">
+	<h1>아이디</h1>
+		<div id="outer">
+			<div id="inner">
+				<input type="text">
+			</div>
+		</div>
+	<h1>비밀번호</h1>
+		<div id="outer">
+			<div id="inner">
+				<input type="text">
+			</div>
+		</div>
+	<h1>비밀번호확인</h1>
+		<div id="outer">
+			<div id="inner">
+				<input type="text">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
