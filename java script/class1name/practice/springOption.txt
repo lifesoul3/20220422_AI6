@@ -1,0 +1,4 @@
+mysqldriver
+springbootdevtools
+springdatajpa
+springweb
