@@ -11,9 +11,7 @@ function solution(arr,divisor) {
             answer.push(i)
         }
     }
-    if(answer==[]){
-        answer.push(-1)
-    }
+
 
     console.log(arr)
     
