@@ -1,0 +1,12 @@
+[{
+    "season":1,
+    "weather":1,
+    "temp":9,
+    "atemp":14,
+    "humidity":81,
+    "year":2022,
+    "hour":18,
+    "dayofweek":2,
+    "holiday":0,
+    "workingday":1
+}]
