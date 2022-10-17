@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\6mon10d\project001\bin\Debug\project001.exe.config
+C:\Users\User\source\repos\6mon10d\project001\bin\Debug\project001.exe
+C:\Users\User\source\repos\6mon10d\project001\bin\Debug\project001.pdb
+C:\Users\User\source\repos\6mon10d\project001\obj\Debug\project001.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\6mon10d\project001\obj\Debug\project001.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\6mon10d\project001\obj\Debug\project001.Form1.resources
+C:\Users\User\source\repos\6mon10d\project001\obj\Debug\project001.Properties.Resources.resources
+C:\Users\User\source\repos\6mon10d\project001\obj\Debug\project001.csproj.GenerateResource.cache
+C:\Users\User\source\repos\6mon10d\project001\obj\Debug\project001.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\6mon10d\project001\obj\Debug\project001.exe
+C:\Users\User\source\repos\6mon10d\project001\obj\Debug\project001.pdb
+C:\Users\User\source\repos\6mon10d\project001\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\6mon10d\project001\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\6mon10d\project001\obj\Debug\project001.csproj.CopyComplete
