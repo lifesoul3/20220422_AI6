@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\CarManagement\winform1\bin\Debug\winform1.exe.config
+C:\Users\User\source\repos\CarManagement\winform1\bin\Debug\winform1.exe
+C:\Users\User\source\repos\CarManagement\winform1\bin\Debug\winform1.pdb
+C:\Users\User\source\repos\CarManagement\winform1\obj\Debug\winform1.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\CarManagement\winform1\obj\Debug\winform1.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\CarManagement\winform1\obj\Debug\winform1.Form1.resources
+C:\Users\User\source\repos\CarManagement\winform1\obj\Debug\winform1.Properties.Resources.resources
+C:\Users\User\source\repos\CarManagement\winform1\obj\Debug\winform1.csproj.GenerateResource.cache
+C:\Users\User\source\repos\CarManagement\winform1\obj\Debug\winform1.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CarManagement\winform1\obj\Debug\winform1.exe
+C:\Users\User\source\repos\CarManagement\winform1\obj\Debug\winform1.pdb

@@ -1,0 +1,6 @@
+npm install
+yarn install -g yarn
+npm install nodemon
+
+npm install @material-ui/core --legacy-peer-deps
+yarn add @material-ui/core

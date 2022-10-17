@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\CarManagement\CarManagement\bin\Debug\CarManagement.exe.config
+C:\Users\User\source\repos\CarManagement\CarManagement\bin\Debug\CarManagement.exe
+C:\Users\User\source\repos\CarManagement\CarManagement\bin\Debug\CarManagement.pdb
+C:\Users\User\source\repos\CarManagement\CarManagement\obj\Debug\CarManagement.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\CarManagement\CarManagement\obj\Debug\CarManagement.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\CarManagement\CarManagement\obj\Debug\CarManagement.MainForm.resources
+C:\Users\User\source\repos\CarManagement\CarManagement\obj\Debug\CarManagement.Properties.Resources.resources
+C:\Users\User\source\repos\CarManagement\CarManagement\obj\Debug\CarManagement.csproj.GenerateResource.cache
+C:\Users\User\source\repos\CarManagement\CarManagement\obj\Debug\CarManagement.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CarManagement\CarManagement\obj\Debug\CarManagement.exe
+C:\Users\User\source\repos\CarManagement\CarManagement\obj\Debug\CarManagement.pdb

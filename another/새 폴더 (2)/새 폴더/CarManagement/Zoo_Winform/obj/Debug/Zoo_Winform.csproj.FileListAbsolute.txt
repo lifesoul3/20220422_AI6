@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\CarManagement\Zoo_Winform\bin\Debug\Zoo_Winform.exe.config
+C:\Users\User\source\repos\CarManagement\Zoo_Winform\bin\Debug\Zoo_Winform.exe
+C:\Users\User\source\repos\CarManagement\Zoo_Winform\bin\Debug\Zoo_Winform.pdb
+C:\Users\User\source\repos\CarManagement\Zoo_Winform\obj\Debug\Zoo_Winform.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\CarManagement\Zoo_Winform\obj\Debug\Zoo_Winform.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\CarManagement\Zoo_Winform\obj\Debug\Zoo_Winform.Form1.resources
+C:\Users\User\source\repos\CarManagement\Zoo_Winform\obj\Debug\Zoo_Winform.Properties.Resources.resources
+C:\Users\User\source\repos\CarManagement\Zoo_Winform\obj\Debug\Zoo_Winform.csproj.GenerateResource.cache
+C:\Users\User\source\repos\CarManagement\Zoo_Winform\obj\Debug\Zoo_Winform.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CarManagement\Zoo_Winform\obj\Debug\Zoo_Winform.exe
+C:\Users\User\source\repos\CarManagement\Zoo_Winform\obj\Debug\Zoo_Winform.pdb

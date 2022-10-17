@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\CarManagement\cshap07\bin\Debug\cshap07.exe.config
+C:\Users\User\source\repos\CarManagement\cshap07\bin\Debug\cshap07.exe
+C:\Users\User\source\repos\CarManagement\cshap07\bin\Debug\cshap07.pdb
+C:\Users\User\source\repos\CarManagement\cshap07\obj\Debug\cshap07.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\CarManagement\cshap07\obj\Debug\cshap07.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\CarManagement\cshap07\obj\Debug\cshap07.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CarManagement\cshap07\obj\Debug\cshap07.exe
+C:\Users\User\source\repos\CarManagement\cshap07\obj\Debug\cshap07.pdb
